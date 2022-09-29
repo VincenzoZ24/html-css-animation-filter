@@ -81,6 +81,12 @@
 }
 .ex-10-icon {
     font-size: 60px;
+    animation: gira 1s linear infinite;
+}
+@keyframes gira {
+    0%{
+        rotate: 1turn;
+    }
 }
 .ex-11-icon {
     font-size: 60px;
