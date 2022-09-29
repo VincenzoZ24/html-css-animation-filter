@@ -90,6 +90,21 @@
 }
 .ex-11-icon {
     font-size: 60px;
+    
+}
+.ex-11-icon:hover {
+    animation: giroOrario 2s linear;
+}
+@keyframes giroOrario {
+    0% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(315deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
 }
 .ex-12-button, .ex-13-button {
     position: relative;
